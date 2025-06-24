@@ -1,6 +1,7 @@
+
 fastapi
 uvicorn
 asyncpg
-httpx
 openai
-aiogram
+argostranslate
+httpx

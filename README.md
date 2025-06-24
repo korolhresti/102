@@ -1,15 +1,6 @@
-# News Platform with Telegram Bot
+# AI News Bot
 
-## Розгортання через Render
-1. Клонуй репозиторій:
-   git clone https://github.com/your/news-platform.git
-
-2. Перейди в Render Dashboard → "Blueprint Deploy" → вкажи цей репозиторій
-
-3. Заповни значення змінних:
-   - BOT_TOKEN
-   - DATABASE_URL (від Neon)
-   - OPENAI_API_KEY (якщо GPT потрібен)
-   - GOOGLE_TRANSLATE_API_KEY (якщо не використовуєш локальний)
-
-4. Telegram-бот і бекенд буде розгорнуто автоматично.
+- FastAPI backend
+- Argos Translate локальний переклад
+- GPT-аналіз новин
+- Готово до деплою на Render
